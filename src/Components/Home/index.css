@@ -1,0 +1,65 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    padding-top: 20px;
+    background: radial-gradient(circle at center, maroon, rgb(224, 86, 86));
+    height: fit-content;
+  }
+  .head {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .page-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-shadow: none;
+    border-color: transparent;
+  }
+  
+  .page-number {
+    margin: 0 10px;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 20px;
+      width: fit-content;
+    }
+    .pagination {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .page-button {
+      margin: 5px;
+      border-radius: 10px;
+      background-color: aquamarine;
+    }
+  }
+  

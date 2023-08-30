@@ -1,0 +1,12 @@
+.Listcontainer {
+    background-color: blueviolet;
+    border-radius: 40px;
+    padding: 40px;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .Listcontainer {
+        margin: 0px;
+    }
+}
